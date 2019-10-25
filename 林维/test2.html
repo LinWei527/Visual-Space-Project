@@ -33,26 +33,23 @@ $(document).ready(function() {
          }
       }
    };
-   var series= [{
+    var series= [{
       type: 'pie',
       name: 'Browser share',
-      var series = [{
-		        type: 'pie',
-				name: 'Browser share',
-				data: [
-				    ['IE', 11.15],
-					['Firefox', 9.68], 
-					{
-					    name: 'Chrome',
-						y: 64.67,
-						sliced: true,
-						selected: true
-					},
-					['Edge'  ,4.21],
-					['Safari' ,3.49],
-					['QQ' ,1.55],
-					['Sogou Explorer' ,1.49]
-					]
+	  data: [
+		    ['IE', 11.15],
+			['Firefox', 9.68], 
+				{
+				    name: 'Chrome',
+					y: 64.67,
+					sliced: true,
+					selected: true
+				},
+			['Edge'  ,4.21],
+			['Safari' ,3.49],
+			['QQ' ,1.55],
+			['Sogou Explorer' ,1.49]
+			]
    }];     
       
    var json = {};   
